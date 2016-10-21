@@ -1,0 +1,18 @@
+version: '2'
+services:
+  pgsql:
+    build: ./pgsql
+    environment:
+      POSTGRES_PASSWORD: passwd
+    volumes:
+      - pg_db:/var/lib/postgresql/data
+  php:
+    build: ./php
+    ports:
+      - '80:80'
+    volumes:
+      - ./html:/var/www/html
+    depends_on:
+      - pgsql
+volumes:
+  pg_db:
