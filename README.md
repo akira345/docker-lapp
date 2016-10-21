@@ -16,6 +16,7 @@ docker-compose up -d
 phpPgAdminの代わりにadminarをインストールしています。
 
 /adminarでアクセスできます。
+
 |    |    |
 |---------|---------|
 |データベース種類|PostgreSQL|
