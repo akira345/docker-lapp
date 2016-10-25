@@ -13,7 +13,7 @@ cd docker-lapp/
 docker-compose up -d
 ```
 
-phpPgAdminの代わりにedminarをインストールしています。
+phpPgAdminの代わりにadminerをインストールしています。
 
 /adminerでアクセスできます。
 
