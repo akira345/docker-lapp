@@ -3,7 +3,7 @@ DockerでLAPP環境を作成する
 
 DockerでLAPPでの開発環境を作成するスクリプトです。
 
-PHP7+Adminar+PostgreSQL9.6の環境が作成されますので、
+PHP7+Adminer+PostgreSQL9.6の環境が作成されますので、
 簡単に開発環境を作成することが出来ます。
 
 composerもインストールされています。
@@ -13,9 +13,9 @@ cd docker-lapp/
 docker-compose up -d
 ```
 
-phpPgAdminの代わりにadminarをインストールしています。
+phpPgAdminの代わりにedminarをインストールしています。
 
-/adminarでアクセスできます。
+/adminerでアクセスできます。
 
 |    |    |
 |---------|---------|
